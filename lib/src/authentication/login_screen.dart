@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hortifruti/src/components/campoDeTexto.dart';
 
 class LoginScreen extends StatelessWidget {
   const LoginScreen({super.key});
@@ -24,21 +25,10 @@ class LoginScreen extends StatelessWidget {
               child: Column(
                 children: [
                   //Email
-                  TextFormField(
-                    decoration: InputDecoration(
-                      isDense: true,
-                        border: OutlineInputBorder(
-                      borderRadius: BorderRadius.circular(18),
-                    )),
-                  ),
-                  TextFormField(
-                    decoration: InputDecoration(
-                      isDense: true,
-                        border: OutlineInputBorder(
-                      borderRadius: BorderRadius.circular(18),
-                    )),
-                  )
+                  campoDeTextoCustomizado(label: 'Email', icon: Icons.email),
                   //Senha
+                  campoDeTextoCustomizado(
+                      label: 'Senha', icon: Icons.lock, isobscure: true),
                 ],
               ),
             ),
