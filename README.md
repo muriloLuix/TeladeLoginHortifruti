@@ -26,5 +26,5 @@ Este projeto faz parte de um trabalho acadêmico e tem como objetivo criar um ap
    ```bash
    flutter run
 
-👩‍💻 Autor
+👩‍💻 Autor<br>
 Feito com 💚 por <a href="https://github.com/muriloLuix">@muriloluix<a/>
